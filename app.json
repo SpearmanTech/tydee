@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Tydee",
+    "slug": "tydee-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Assets/Icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./Assets/Icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8B5CF6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tydee.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./Assets/adaptive-icon.png",
+        "backgroundColor": "#8B5CF6"
+      },
+      "package": "com.tydee.mobile"
+    },
+    "web": {
+      "favicon": "./Assets/favicon.png"
+    },
+    "scheme": "tydee",
+    "extra": {
+      "EXPO_FIREBASE_API_KEY": "AIzaSyCUU23DUC6vNaiGTvTIPeAqpKR8PDg8iok",
+      "EXPO_FIREBASE_AUTH_DOMAIN": "tydee-afc49.firebaseapp.com",
+      "EXPO_FIREBASE_PROJECT_ID": "tydee-afc49",
+      "EXPO_FIREBASE_STORAGE_BUCKET": "tydee-afc49.firebasestorage.app",
+      "EXPO_FIREBASE_MESSAGING_SENDER_ID": "1054428007537",
+      "EXPO_FIREBASE_APP_ID": "1:1054428007537:web:d336eb4d83fb250725dfd0",
+      "EXPO_FIREBASE_MEASUREMENT_ID": "G-24H1W0RSCY"
+    }
+  }
+}
